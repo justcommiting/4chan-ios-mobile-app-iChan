@@ -58,7 +58,7 @@ jobs:
         rm -rf Payload
         
     - name: Upload IPA artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: iChan-IPA
         path: iChan.ipa
